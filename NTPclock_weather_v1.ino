@@ -2,7 +2,21 @@
 // Ceas LCD 20x4 I2C (8/9) cu Open-Meteo Craiova pentru ESP32-S3 SuperMini (Nicu Florica / niq_ro)
 // Adaptat dupa schita originala de la https://www.youtube.com/watch?v=8txWH-ZVqIE&t=1049s 
 // ============================================================================
-
+/*
+       +-----------------------+              +-----------------------+
+       |   ESP32-S3 SUPERMINI  |              |    AFIȘAJ LCD 20X4    |
+       |     (Vedere de sus)   |              |   (Modulul I2C spate) |
+       +-----------------------+              +-----------------------+
+       |                       |              |                       |
+       |  [ 5V ]---------------+------------->| [ VCC ]               |
+       |  [ GND]---------------+------------->| [ GND ]               |
+       |                       |              |                       |
+       |  [ IO8 ] (SDA)--------+------------->| [ SDA ]               |
+       |  [ IO9 ] (SCL)--------+------------->| [ SCL ]               |
+       |                       |              |                       |
+       +-----------------------+              +-----------------------+
+*/
+    
 #include <Wire.h>
 #include <WiFi.h>
 #include <WiFiMulti.h>
