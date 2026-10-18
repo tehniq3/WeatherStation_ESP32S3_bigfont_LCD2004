@@ -13,3 +13,5 @@ based on info from https://www.youtube.com/watch?v=8txWH-ZVqIE&amp;t=1049s
        |  [ IO9 ] (SCL)--------+------------->| [ SCL ]               |
        |                       |              |                       |
        +-----------------------+              +-----------------------+
+
+my articke: https://nicuflorica.blogspot.com/2026/10/ceas-ntp-cu-cifre-mari-si-date-meteo-pe.html
