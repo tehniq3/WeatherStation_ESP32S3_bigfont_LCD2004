@@ -118,9 +118,10 @@ void setup() {
   delay(1000);
 
   // Fus orar Romania cu schimbare automata vara/iarna
+  configTime(0, 0, ntp_server1, ntp_server2);     
   setenv("TZ", "EET-2EEST,M3.5.0/3,M10.5.0/4", 1);
   tzset();
-//  configTime(0, 0, ntp_server1, ntp_server2);
+ 
   lcd.clear();
   lcd.print("Sincronizare NTP...");
   
