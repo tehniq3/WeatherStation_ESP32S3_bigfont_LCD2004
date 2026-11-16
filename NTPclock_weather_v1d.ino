@@ -309,7 +309,7 @@ void printSingleDigit(uint8_t digit, uint8_t position) {
 
 // Executa animatia de cadere (flip) pe 3 randuri intre oldDigit si newDigit
 void flipSingleDigit(uint8_t oldDigit, uint8_t newDigit, uint8_t position) {
-  int flipDelay = 110; // Viteza animatiei in milisecunde
+  int flipDelay = 200; // Viteza animatiei in milisecunde
 
   // PASUL 1: Randul 0 primeste cifra NOUA (sus), Randul 1 primeste cifra VECHE (sus)
   lcd.setCursor(position, 0);
